@@ -1,6 +1,9 @@
 /* A*/
 /*B */
 /* C */
+body {
+    background-color: #80BCBD;
+}
 
 .Color{
 
@@ -60,5 +63,18 @@
 /*Y */
 /*Z */
 
-
-
+.main {
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+    margin-top: 2em;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.cards {
+    border-style: double;
+    border-radius: 1em;
+    background-color: #D5F0C1;
+}
