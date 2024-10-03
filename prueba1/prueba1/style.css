@@ -1,0 +1,64 @@
+/* A*/
+/*B */
+/* C */
+
+.Color{
+
+    color: #AAD9BB; /* Cambia el color del texto */
+}
+#Card-Open{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+}
+/* D*/
+/* E*/
+/* F*/
+.Font-Cursive{
+    font-family: "Cedarville Cursive", cursive;
+}
+.Font-size-G{
+    font-size: 5rem; /* Ajustar el tamaño */
+}
+.Font-size-M{
+    font-size: 3rem; /* Ajustar el tamaño */
+}
+.Foto-Open{
+        width: 100%;
+        height: 800px;
+        background-image: 
+            radial-gradient(circle, rgba(255, 255, 255, 0) 60%, rgba(255, 0, 0, 1) 50%), /* Gradiente más pronunciado */
+            url('https://th.bing.com/th/id/R.29ea5fb65d3bdc3c924b969a64e2b91d?rik=caMVw6KQ9ZF%2bSA&pid=ImgRaw&r=0'); /* Imagen */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        border: 2px solid black; /* Añade un borde para asegurar visibilidad */
+    }
+    
+
+/* G*/
+/* H */
+/* I*/
+/* J */
+/* K*/
+/* L */
+/* M */
+/* N*/
+/* O*/
+/*P */
+/*Q */
+/* R*/
+/*S */
+/*T */
+.text-center{
+    text-align: center; /* Centra el texto */
+}
+/*U*/
+/* V*/
+/* W*/
+/* X*/
+/*Y */
+/*Z */
+
+
+
