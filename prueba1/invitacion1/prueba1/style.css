@@ -48,6 +48,34 @@ body {
     height: 100vh;  
     background-position: top center; /* Coloca la imagen en la parte superior y centrada */
 }
+#Card-Frase{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+    background-image: url('https://img.freepik.com/premium-photo/rectangle-gold-frame-with-foliage-pattern-background_972234-2236.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 2000px;            /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Regalo{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+    background-image: url('https://www.imagenesvarias.com/wp-content/uploads/2017/12/Fondos-de-pantalla-de-Parejas-Enamoradas-23.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 2000px;            /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
 #Card-time{
     background-color: #F9F7C9;
     background-image: url('https://wallpapertag.com/wallpaper/full/0/5/9/539999-blue-flowers-wallpaper-1920x1200-windows-xp.jpg');
@@ -140,6 +168,9 @@ body {
 /* D*/
 /* E*/
 /* F*/
+.Font-Historia{
+font-family: "Cormorant Garamond", Sans-serif;
+}
 .Font-Cursive{
     font-family: "Parisienne", cursive;
 }
@@ -154,6 +185,9 @@ font-family: "Bree Serif", serif;
 }
 .Font-size-S{
     font-size: 1rem; /* Ajustar el tamaño */
+}
+.Font-Color-Black{
+    color: #000000;
 }
 .Foto-Open{
         width: 100%;
@@ -353,4 +387,65 @@ font-family: "Bree Serif", serif;
     transform: translateX(-50%);
     z-index: 0;
     top: 0;
+}
+
+
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 2s ease; /* Añadir transición para el efecto de zoom */
+}
+
+/* Efecto de zoom en la imagen activa */
+.carousel-slide.active img {
+    transform: scale(1.1); /* Zoom del 110% en la imagen activa */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
